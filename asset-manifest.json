@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/learn2earn_v2/static/css/main.680481ec.css",
+    "main.js": "/learn2earn_v2/static/js/main.3b778a3c.js",
+    "static/js/27.411951d5.chunk.js": "/learn2earn_v2/static/js/27.411951d5.chunk.js",
+    "static/media/metamask-icon.svg": "/learn2earn_v2/static/media/metamask-icon.b3649ecfe8c45f27ceb9f99d70f3d24e.svg",
+    "static/media/logo.svg": "/learn2earn_v2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/blocto-icon.svg": "/learn2earn_v2/static/media/blocto-icon.ff8c029ba3c3588f8924488fe25239d5.svg",
+    "index.html": "/learn2earn_v2/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.680481ec.css",
+    "static/js/main.3b778a3c.js"
+  ]
+}
