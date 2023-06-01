@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/learn2earn_v2/static/css/main.680481ec.css",
-    "main.js": "/learn2earn_v2/static/js/main.a1d163ef.js",
+    "main.js": "/learn2earn_v2/static/js/main.4c457508.js",
     "static/js/27.411951d5.chunk.js": "/learn2earn_v2/static/js/27.411951d5.chunk.js",
     "static/media/metamask-icon.svg": "/learn2earn_v2/static/media/metamask-icon.b3649ecfe8c45f27ceb9f99d70f3d24e.svg",
     "static/media/logo.svg": "/learn2earn_v2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
@@ -10,6 +10,6 @@
   },
   "entrypoints": [
     "static/css/main.680481ec.css",
-    "static/js/main.a1d163ef.js"
+    "static/js/main.4c457508.js"
   ]
 }
