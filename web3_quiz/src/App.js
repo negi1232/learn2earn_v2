@@ -37,7 +37,7 @@ function App() {
   }, [])
 
 
-  if (is_connect == true && chain_id == "0x13466" ) {
+  if (is_connect == true && chain_id == "0x13881" ) {
     return (
 
       <div className="App">
@@ -75,8 +75,6 @@ function App() {
           </div>
 
         </body>
-        
-
       </div>
   );
   }

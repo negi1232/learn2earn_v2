@@ -9,7 +9,7 @@ const bloctoSDK = new BloctoSDK({
   });
 
 
-const quiz_address="0x4eC8E1E12bD0547Ae5F05e2dDf797707709684F7";
-const token_address="0xdee17a4bd57B214294edcf370000D0427e7aDF27";
+const quiz_address="0x2dB485bAb9e0732858b4937a9355f1eBcDeD3351";
+const token_address="0xE5ffF15fE09612862BBDcCbd744435419FEaed22";
 
 export {chainId,rpc,bloctoSDK,quiz_address,token_address };

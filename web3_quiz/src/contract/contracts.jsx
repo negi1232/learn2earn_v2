@@ -56,10 +56,10 @@ class Contracts_MetaMask {
 
     async change_network() {
         const networkParam = {
-            chainId: '0x13466',
-            chainName: 'fujihalab chain',
-            nativeCurrency: { name: 'Fuji', symbol: 'FUJI', decimals: 18 },
-            rpcUrls: ['https://ik1-206-76848.vs.sakura.ne.jp'],
+            chainId: '0x13881',
+            chainName: 'Mumbai Testnet',
+            nativeCurrency: { name: 'MATIC', symbol: 'MATIC', decimals: 18 },
+            rpcUrls: ['https://rpc-mumbai.maticvigil.com/'],
             blockExplorerUrls: ['https://mumbai.polygonscan.com/'],
         };
         await window.ethereum.request({
@@ -218,7 +218,7 @@ class Contracts_MetaMask {
         Quiz_Contract.on(filters(account), (_sender, id) => {
             console.log("from: ", _sender);
             console.log("message: ", id);
-            document.location.href = "/"+process.env.PUBLIC_URL+"/answer_quiz/" + id;
+            document.location.href = process.env.PUBLIC_URL+"/answer_quiz/" + id;
         })
 
         return Quiz_Contract;
@@ -235,7 +235,7 @@ class Contracts_MetaMask {
 
         provider.once(answer_filters(account,id), (from, to, tokenId, event) => {
             console.log("hit")
-            document.location.href = "/"+process.env.PUBLIC_URL+"/user_page/" + account;
+            document.location.href = process.env.PUBLIC_URL+"/user_page/" + account;
         });
 
     }

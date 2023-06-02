@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import "./navbar.css"
+// import "./navbar.css"
 import {AiFillPropertySafety, AiOutlineUser} from 'react-icons/ai';
 import {MdOutlineQuiz} from 'react-icons/md';
 import {AiOutlineUnorderedList} from 'react-icons/ai'
